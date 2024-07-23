@@ -1,17 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+}
+
 h1 {
-    background-color: antiquewhite;
-    text-align: center;
+    color: white;
+    margin-left: 20px; 
 }
 
-ul li a{
-    color: aquamarine;
+button{
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
+    border: 2px solid black;
 }
 
-li {
-    color: blue;
-    text-align: center;
+.recipes-items {
+    display: inline-block;
+    padding: 10px;
 }
 
-ul{
-    text-align: center;
-}
+
+
